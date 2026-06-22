@@ -12,17 +12,17 @@
       "draft": false,
       "assets": [
         {
-          "name": "QM CLAW-Portable-1.3.0-win-x64.zip",
+          "name": "QM.CLAW-Portable-1.3.0-win-x64.zip",
           "browser_download_url": "https://gh-proxy.com/https://github.com/Sqraaows/QM-AI-Claw-Public/releases/download/v1.3.0/QM.CLAW-Portable-1.3.0-win-x64.zip",
           "fallback_url": "https://gh.llkk.cc/https://github.com/Sqraaows/QM-AI-Claw-Public/releases/download/v1.3.0/QM.CLAW-Portable-1.3.0-win-x64.zip",
-          "size": 648391742,
+          "size": 646226832,
           "content_type": "application/zip"
         },
         {
-          "name": "QM CLAW-Engineer-Installer-1.3.0-win-x64.exe",
+          "name": "QM.CLAW-Engineer-Installer-1.3.0-win-x64.exe",
           "browser_download_url": "https://gh-proxy.com/https://github.com/Sqraaows/QM-AI-Claw-Public/releases/download/v1.3.0/QM.CLAW-Engineer-Installer-1.3.0-win-x64.exe",
           "fallback_url": "https://gh.llkk.cc/https://github.com/Sqraaows/QM-AI-Claw-Public/releases/download/v1.3.0/QM.CLAW-Engineer-Installer-1.3.0-win-x64.exe",
-          "size": 1875684613,
+          "size": 1862796230,
           "content_type": "application/vnd.microsoft.portable-executable"
         }
       ]
