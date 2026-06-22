@@ -1,0 +1,7 @@
+interface:
+  display_name: "启动上下文加载"
+  short_description: "按固定顺序读取身份、用户、近期记忆和主会话记忆，避免空白启动。"
+  default_prompt: "Use $startup-context-loader to start a session from workspace context."
+
+policy:
+  allow_implicit_invocation: true

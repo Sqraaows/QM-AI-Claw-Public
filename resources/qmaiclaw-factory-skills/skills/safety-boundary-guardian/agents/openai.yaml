@@ -1,0 +1,7 @@
+interface:
+  display_name: "安全边界守护"
+  short_description: "在隐私、外发、删除和高风险操作前设置清晰边界，优先可恢复。"
+  default_prompt: "Use $safety-boundary-guardian to review a risky action before doing it."
+
+policy:
+  allow_implicit_invocation: true

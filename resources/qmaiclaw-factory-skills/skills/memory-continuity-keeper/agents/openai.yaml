@@ -1,0 +1,7 @@
+interface:
+  display_name: "长期记忆维护"
+  short_description: "把关键决策、上下文、偏好和经验沉淀到文件，保持跨会话连续性。"
+  default_prompt: "Use $memory-continuity-keeper to preserve useful project memory."
+
+policy:
+  allow_implicit_invocation: true

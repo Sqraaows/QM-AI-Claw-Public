@@ -1,0 +1,483 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iOfficeAI/AionHub/spec/v0/extension-manifest.schema.json",
+  "author": "QM Claw",
+  "contributes": {
+    "skills": [
+      {
+        "id": "train-12306",
+        "name": "12306 Train Query",
+        "description": "Query China Railway 12306 train schedules, station codes, and ticket availability.",
+        "file": "skills/train-12306/SKILL.md"
+      },
+      {
+        "id": "siliconflow-all",
+        "name": "硅基流动全模态云模型 Skill（D 盘桌面版）",
+        "description": "Route SiliconFlow multimodal tasks through environment-based API credentials.",
+        "file": "skills/siliconflow-all/SKILL.md"
+      },
+      {
+        "id": "image-process",
+        "name": "图片处理技能",
+        "description": "Compress, remove backgrounds, replace backgrounds, and upscale images with local Node tooling.",
+        "file": "skills/image-process/SKILL.md"
+      },
+      {
+        "id": "aicharmer",
+        "name": "aicharmer - AI 图片与视频生成助手",
+        "description": "Generate images and videos with MiniMax CLI or SiliconFlow using environment credentials.",
+        "file": "skills/aicharmer/SKILL.md"
+      },
+      {
+        "id": "ecommerce-listing",
+        "name": "Ecommerce",
+        "description": "Prepare ecommerce product up/down listing plans, import files, and dry-run API requests.",
+        "file": "skills/ecommerce/SKILL.md"
+      },
+      {
+        "id": "digital-human-voiceover",
+        "name": "数字人口播",
+        "description": "Generate digital-human voiceover videos with Liudong or Volcengine provider scripts.",
+        "file": "skills/digital-human-voiceover/SKILL.md"
+      },
+      {
+        "id": "old-photo-restoration",
+        "name": "老照片修复",
+        "description": "Restore old photos through configured Liudong or Volcengine providers.",
+        "file": "skills/old-photo-restoration/SKILL.md"
+      },
+      {
+        "id": "old-photo-animation",
+        "name": "老照片动起来",
+        "description": "Restore old photos and turn them into short narrated animation videos.",
+        "file": "skills/old-photo-animation/SKILL.md"
+      },
+      {
+        "id": "video-editor",
+        "name": "Video Editor",
+        "description": "Plan and render local video edits with FFmpeg-compatible tooling; optional dependencies are downloaded separately.",
+        "file": "skills/video-editor/SKILL.md"
+      },
+      {
+        "id": "ai-manga-drama",
+        "name": "AI Manga Drama",
+        "description": "Plan AI manga drama episodes, generate SiliconFlow video jobs, subtitles, and assembly steps.",
+        "file": "skills/ai-manga-drama/SKILL.md"
+      },
+      {
+        "id": "siliconflow-video-gen",
+        "name": "SiliconFlow Video Gen",
+        "description": "Create, dry-run, submit, poll, and download SiliconFlow text-to-video or image-to-video jobs.",
+        "file": "skills/siliconflow-video-gen/SKILL.md"
+      },
+      {
+        "id": "siliconflow-keyframe-video-outfit",
+        "name": "SiliconFlow Keyframe Video Outfit",
+        "description": "Create keyframe-based outfit-transfer videos with SiliconFlow and FFmpeg.",
+        "file": "skills/siliconflow-keyframe-video-outfit/SKILL.md"
+      },
+      {
+        "id": "api-testing",
+        "name": "API Testing",
+        "description": "",
+        "file": "skills/api-testing/SKILL.md"
+      },
+      {
+        "id": "apple-notes",
+        "name": "Apple Notes CLI",
+        "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks Clawdbot to add a note, list notes, search notes, or manage note folders.",
+        "file": "skills/apple-notes/SKILL.md"
+      },
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps Skill",
+        "description": "List Azure DevOps projects, repositories, and branches; create pull requests; manage work items; check build status. Use when working with Azure DevOps resources, checking PR status, querying project structure, or automating DevOps workflows.",
+        "file": "skills/azure-devops/SKILL.md"
+      },
+      {
+        "id": "bear-notes",
+        "name": "Bear Notes",
+        "description": "Create, search, and manage Bear notes via grizzly CLI on macOS.",
+        "file": "skills/bear-notes/SKILL.md"
+      },
+      {
+        "id": "bird",
+        "name": "bird",
+        "description": "X/Twitter CLI for reading, searching, and posting tweets via browser cookies or Sweetistics API.",
+        "file": "skills/bird/SKILL.md"
+      },
+      {
+        "id": "blogwatcher",
+        "name": "Blogwatcher",
+        "description": "",
+        "file": "skills/blogwatcher/SKILL.md"
+      },
+      {
+        "id": "blucli",
+        "name": "blucli (blu)",
+        "description": "BluOS CLI (blu) for discovery, playback, grouping, and volume control of Bluesound/NAD players.",
+        "file": "skills/blucli/SKILL.md"
+      },
+      {
+        "id": "clawhub-helper",
+        "name": "ClawHub Skill 安装助手",
+        "description": "",
+        "file": "skills/clawhub-helper/SKILL.md"
+      },
+      {
+        "id": "clickup-mcp",
+        "name": "ClickUp MCP",
+        "description": "",
+        "file": "skills/clickup-mcp/SKILL.md"
+      },
+      {
+        "id": "cloudflare-commands",
+        "name": "Cloudflare Commands",
+        "description": "",
+        "file": "skills/cloudflare-commands/SKILL.md"
+      },
+      {
+        "id": "code-search",
+        "name": "Code Search",
+        "description": "",
+        "file": "skills/code-search/SKILL.md"
+      },
+      {
+        "id": "create-cli",
+        "name": "Create CLI",
+        "description": "> Design command-line interface parameters and UX: arguments, flags, subcommands, help text, output formats, error messages, exit codes, prompts, config/env precedence, and safe/dry-run behavior. Use when designing a CLI spec or refactoring an existing CLI.",
+        "file": "skills/create-cli/SKILL.md"
+      },
+      {
+        "id": "database-commands",
+        "name": "Database Commands",
+        "description": "",
+        "file": "skills/database-commands/SKILL.md"
+      },
+      {
+        "id": "docker-commands",
+        "name": "Docker Commands",
+        "description": "",
+        "file": "skills/docker-commands/SKILL.md"
+      },
+      {
+        "id": "eightctl",
+        "name": "eightctl",
+        "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+        "file": "skills/eightctl/SKILL.md"
+      },
+      {
+        "id": "file-conversion",
+        "name": "File Conversion",
+        "description": "",
+        "file": "skills/file-conversion/SKILL.md"
+      },
+      {
+        "id": "finance-llm",
+        "name": "Finance LLM Skill - 金融大模型助手",
+        "description": "",
+        "file": "skills/finance-llm/SKILL.md"
+      },
+      {
+        "id": "food-order",
+        "name": "Food order (Foodora via ordercli)",
+        "description": "Reorder Foodora orders + track ETA/status with ordercli. Triggers: order food, reorder, track ETA. Never confirm without explicit user approval.",
+        "file": "skills/food-order/SKILL.md"
+      },
+      {
+        "id": "frontend-design",
+        "name": "Frontend Design",
+        "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+        "file": "skills/frontend-design/SKILL.md"
+      },
+      {
+        "id": "gh-issues",
+        "name": "gh-issues",
+        "description": "Manage GitHub issues via the gh-issues CLI (create, comment, list, search, label, assign, close).",
+        "file": "skills/gh-issues/SKILL.md"
+      },
+      {
+        "id": "gh-stars",
+        "name": "gh-stars",
+        "description": "List, search, and manage GitHub starred repositories with the gh-stars CLI.",
+        "file": "skills/gh-stars/SKILL.md"
+      },
+      {
+        "id": "gh-workflow-gpt",
+        "name": "gh-workflow-gpt",
+        "description": "Analyze GitHub Actions workflows with AI to find failure root causes and suggest fixes.",
+        "file": "skills/gh-workflow-gpt/SKILL.md"
+      },
+      {
+        "id": "git-commands",
+        "name": "Git Commands",
+        "description": "",
+        "file": "skills/git-commands/SKILL.md"
+      },
+      {
+        "id": "goplaces",
+        "name": "goplaces",
+        "description": "Query Google Places API for place search, details, resolve, and reviews. Use for finding businesses, restaurants, and locations.",
+        "file": "skills/goplaces/SKILL.md"
+      },
+      {
+        "id": "himalaya",
+        "name": "Himalaya Email CLI",
+        "description": "",
+        "file": "skills/himalaya/SKILL.md"
+      },
+      {
+        "id": "humanizer",
+        "name": "Humanizer",
+        "description": "",
+        "file": "skills/humanizer/SKILL.md"
+      },
+      {
+        "id": "kubernetes-commands",
+        "name": "Kubernetes Commands",
+        "description": "",
+        "file": "skills/kubernetes-commands/SKILL.md"
+      },
+      {
+        "id": "nano-banana-pro",
+        "name": "Nano Banana Pro",
+        "description": "",
+        "file": "skills/nano-banana-pro/SKILL.md"
+      },
+      {
+        "id": "nano-pdf",
+        "name": "Nano Pdf",
+        "description": "",
+        "file": "skills/nano-pdf/SKILL.md"
+      },
+      {
+        "id": "notion-cli",
+        "name": "notion",
+        "description": "Notion CLI for creating and managing pages, databases, and blocks.",
+        "file": "skills/notion-cli/SKILL.md"
+      },
+      {
+        "id": "notion-qa",
+        "name": "notion-qa",
+        "description": "Ask questions over a Notion workspace and get AI-powered answers with citations. Use when user wants to query their Notion workspace with natural language.",
+        "file": "skills/notion-qa/SKILL.md"
+      },
+      {
+        "id": "ollama-mcp",
+        "name": "Ollama MCP",
+        "description": "",
+        "file": "skills/ollama-mcp/SKILL.md"
+      },
+      {
+        "id": "openhue",
+        "name": "OpenHue CLI",
+        "description": "Control Philips Hue lights and scenes via the OpenHue CLI.",
+        "file": "skills/openhue/SKILL.md"
+      },
+      {
+        "id": "ordercli",
+        "name": "ordercli",
+        "description": "Check past Foodora orders and track active order status via ordercli CLI.",
+        "file": "skills/ordercli/SKILL.md"
+      },
+      {
+        "id": "polymarket",
+        "name": "Polymarket",
+        "description": "",
+        "file": "skills/polymarket/SKILL.md"
+      },
+      {
+        "id": "proactive-agent",
+        "name": "Proactive Agent",
+        "description": "",
+        "file": "skills/proactive-agent/SKILL.md"
+      },
+      {
+        "id": "scheduled-tasks",
+        "name": "Scheduled Tasks (Cron)",
+        "description": "",
+        "file": "skills/scheduled-tasks/SKILL.md"
+      },
+      {
+        "id": "screenshot",
+        "name": "screenshot",
+        "description": "Take high-quality screenshots of URLs with the screenshot CLI, supporting retina displays and various output formats.",
+        "file": "skills/screenshot/SKILL.md"
+      },
+      {
+        "id": "self-improving",
+        "name": "self-improving",
+        "description": "",
+        "file": "skills/self-improving/SKILL.md"
+      },
+      {
+        "id": "session-logs",
+        "name": "Session Logs",
+        "description": "",
+        "file": "skills/session-logs/SKILL.md"
+      },
+      {
+        "id": "shell-commands",
+        "name": "Shell Commands",
+        "description": "",
+        "file": "skills/shell-commands/SKILL.md"
+      },
+      {
+        "id": "skill-vetter",
+        "name": "Skill Vetter",
+        "description": "",
+        "file": "skills/skill-vetter/SKILL.md"
+      },
+      {
+        "id": "sonoscli",
+        "name": "Sonos CLI",
+        "description": "Control Sonos speakers (discover, status, play, volume, grouping).",
+        "file": "skills/sonoscli/SKILL.md"
+      },
+      {
+        "id": "sql-toolkit",
+        "name": "SQL Toolkit",
+        "description": "Query, design, migrate, and optimize SQL databases. Use when working with SQLite, PostgreSQL, or MySQL — schema design, writing queries, creating migrations, indexing, backup/restore, and debugging slow queries. No ORMs required.",
+        "file": "skills/sql-toolkit/SKILL.md"
+      },
+      {
+        "id": "system-monitoring",
+        "name": "System Monitoring",
+        "description": "",
+        "file": "skills/system-monitoring/SKILL.md"
+      },
+      {
+        "id": "teach-lobster-install",
+        "name": "技能安装术（Teach Lobster to Fish）",
+        "description": "",
+        "file": "skills/teach-lobster-install/SKILL.md"
+      },
+      {
+        "id": "todoist",
+        "name": "Todoist",
+        "description": "Manage Todoist tasks and projects via the Todoist REST API. Use when a user wants to add, complete, or search Todoist tasks.",
+        "file": "skills/todoist/SKILL.md"
+      },
+      {
+        "id": "video-frames",
+        "name": "Video Frames (ffmpeg)",
+        "description": "Extract frames or short clips from videos using ffmpeg. Use when extracting thumbnails, analyzing video content, or creating preview images.",
+        "file": "skills/video-frames/SKILL.md"
+      },
+      {
+        "id": "weather",
+        "name": "Weather",
+        "description": "Get current weather and forecasts (no API key required).",
+        "file": "skills/weather-1-0-0/SKILL.md"
+      },
+      {
+        "id": "web-browser",
+        "name": "Web Browser",
+        "description": "",
+        "file": "skills/web-browser/SKILL.md"
+      },
+      {
+        "id": "bilibili-helper",
+        "name": "B站内容助手",
+        "description": "B站内容助手 - 视频标题描述优化、标签策略、封面设计建议、分区选择、评论互动",
+        "file": "skills/bilibili-helper/SKILL.md"
+      },
+      {
+        "id": "china-search",
+        "name": "国内搜索引擎助手",
+        "description": "国内搜索引擎 - 百度、搜狗、Bing中国搜索，绕过GFW限制",
+        "file": "skills/china-search/SKILL.md"
+      },
+      {
+        "id": "china-translate",
+        "name": "中英互译 + 本地化助手",
+        "description": "中英互译 + 本地化 - 技术翻译、UI本地化、文化适配、避免机翻腔",
+        "file": "skills/china-translate/SKILL.md"
+      },
+      {
+        "id": "china-weather",
+        "name": "中国城市天气查询",
+        "description": "中国城市天气查询 - 支持中文城市名、农历日期、wttr.in接口",
+        "file": "skills/china-weather/SKILL.md"
+      },
+      {
+        "id": "deepseek-helper",
+        "name": "DeepSeek API 助手",
+        "description": "DeepSeek API 助手 - 编程辅助、模型选择、API调用指南、定价信息",
+        "file": "skills/deepseek-helper/SKILL.md"
+      },
+      {
+        "id": "douyin-script",
+        "name": "抖音/快手短视频脚本助手",
+        "description": "抖音/快手短视频脚本 - 前3秒hook、脚本结构、热门音乐建议、话题标签策略",
+        "file": "skills/douyin-script/SKILL.md"
+      },
+      {
+        "id": "wechat-article",
+        "name": "微信公众号文章写作助手",
+        "description": "微信公众号文章写作 - 文章结构、排版规范、阅读转化优化、封面建议",
+        "file": "skills/wechat-article/SKILL.md"
+      },
+      {
+        "id": "weibo-poster",
+        "name": "微博内容创作助手",
+        "description": "微博内容创作 - 140字优化、话题热搜、@提及策略、配图描述、发布时机",
+        "file": "skills/weibo-poster/SKILL.md"
+      },
+      {
+        "id": "xiaohongshu-writer",
+        "name": "小红书笔记写作助手",
+        "description": "小红书笔记写作助手 - 标题优化、emoji策略、话题标签、封面文案、笔记结构",
+        "file": "skills/xiaohongshu-writer/SKILL.md"
+      },
+      {
+        "id": "zhihu-writer",
+        "name": "知乎回答/文章写作助手",
+        "description": "知乎回答/文章写作 - 回答结构、专业语气、引用规范、话题关联、盐值优化",
+        "file": "skills/zhihu-writer/SKILL.md"
+      },
+      {
+        "id": "group-chat-participant",
+        "name": "群聊参与分寸",
+        "description": "Group chat participation style for agents. Use when deciding whether to reply, stay silent, correct misinformation, summarize, or add value in multi-person chat contexts.",
+        "file": "skills/group-chat-participant/SKILL.md"
+      },
+      {
+        "id": "heartbeat-proactive-operator",
+        "name": "心跳主动运营",
+        "description": "Proactive heartbeat workflow for agents. Use when handling scheduled heartbeat prompts, periodic checks, reminders, context maintenance, and low-interruption follow-ups.",
+        "file": "skills/heartbeat-proactive-operator/SKILL.md"
+      },
+      {
+        "id": "human-reaction-etiquette",
+        "name": "人类反应礼仪",
+        "description": "Lightweight reaction etiquette for agents. Use when a platform supports reactions and the agent should acknowledge, approve, laugh, or show interest without sending a full message.",
+        "file": "skills/human-reaction-etiquette/SKILL.md"
+      },
+      {
+        "id": "memory-continuity-keeper",
+        "name": "长期记忆维护",
+        "description": "Memory continuity workflow for agents. Use when preserving decisions, user preferences, project context, lessons learned, or daily notes across sessions without relying on mental notes.",
+        "file": "skills/memory-continuity-keeper/SKILL.md"
+      },
+      {
+        "id": "safety-boundary-guardian",
+        "name": "安全边界守护",
+        "description": "Safety and privacy boundary workflow for agents. Use before destructive commands, external posting, credential handling, private data sharing, or any action that may leave the local machine.",
+        "file": "skills/safety-boundary-guardian/SKILL.md"
+      },
+      {
+        "id": "startup-context-loader",
+        "name": "启动上下文加载",
+        "description": "Session startup workflow for OpenClaw and AI agents. Use when an agent enters a workspace and must load SOUL.md, USER.md, recent daily memory, and main-session MEMORY.md before acting.",
+        "file": "skills/startup-context-loader/SKILL.md"
+      }
+    ]
+  },
+  "description": "A lightweight OpenClaw skill pack for train ticket lookup, SiliconFlow routing, image/video generation, ecommerce listing workflows, photo restoration, digital human voiceovers, and local video editing. Secrets, local models, node_modules, and large binaries are intentionally excluded.",
+  "displayName": "Value Skills Pack",
+  "engine": {
+    "aionui": "^1.0.0"
+  },
+  "name": "aionext-value-skills",
+  "version": "1.1.0"
+}

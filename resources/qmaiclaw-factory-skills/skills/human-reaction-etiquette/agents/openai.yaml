@@ -1,0 +1,7 @@
+interface:
+  display_name: "人类反应礼仪"
+  short_description: "用轻量反应表达确认、赞同、惊讶或感谢，减少无意义打断。"
+  default_prompt: "Use $human-reaction-etiquette to choose a natural lightweight reaction."
+
+policy:
+  allow_implicit_invocation: true

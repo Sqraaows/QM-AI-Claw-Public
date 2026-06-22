@@ -1,0 +1,15 @@
+{
+  "manifest_url": "https://gh-proxy.com/https://raw.githubusercontent.com/Sqraaows/QM-AI-Claw-Public/main/qmaiclaw-update/latest.json",
+  "allowed_download_hosts": [
+    "gh-proxy.com",
+    "gh.llkk.cc",
+    "ghfast.top",
+    "ghproxy.net",
+    "raw.githubusercontent.com",
+    "github.com",
+    "objects.githubusercontent.com",
+    "github-releases.githubusercontent.com",
+    "release-assets.githubusercontent.com",
+    "codeload.github.com"
+  ]
+}

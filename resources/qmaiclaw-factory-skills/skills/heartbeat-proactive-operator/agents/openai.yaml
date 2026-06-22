@@ -1,0 +1,7 @@
+interface:
+  display_name: "心跳主动运营"
+  short_description: "把心跳轮询用于低打扰检查、提醒、维护和上下文刷新。"
+  default_prompt: "Use $heartbeat-proactive-operator to plan useful heartbeat checks."
+
+policy:
+  allow_implicit_invocation: true
